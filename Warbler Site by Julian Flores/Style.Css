@@ -33,7 +33,7 @@
 
 .Jiejie {
     font-size: 130%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-optical-sizing: auto;
     font-weight: 30;
     transition: all 500ms;
@@ -63,6 +63,9 @@ header {
     background-image: url(Cover.png);
     color: #fff;
     padding: 20px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
 }
 
 header h1 {
@@ -115,10 +118,13 @@ nav ul li a {
 
 footer {    
     background-image: url(sapa.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    margin-top: 20px;s
+    margin-top: 20px;
     height: 70px;
 }
 
